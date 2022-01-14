@@ -1,0 +1,52 @@
+<svg width="35" height="63" viewBox="0 0 35 63" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+
+  <g clip-path="url(#clip0_86_2898)">
+    <path d="M18.4604 54.2413L34.622 38.0797C35.1387 37.5447 35.1238 36.6921 34.5888 36.1754C34.0669 35.6713 33.2395 35.6713 32.7176 36.1754L17.5082 51.3848L2.29876 36.1754C1.77288 35.6496 0.920288 35.6496 0.394405 36.1754C-0.131397 36.7013 -0.131397 37.5538 0.394405 38.0797L16.556 54.2413C17.082 54.7671 17.9345 54.7671 18.4604 54.2413Z" fill="#D0382F"/>
+  </g>
+  <g opacity="0.5" clip-path="url(#clip1_86_2898)">
+    <path d="M18.4604 41.1163L34.622 24.9547C35.1387 24.4197 35.1238 23.5671 34.5888 23.0504C34.0669 22.5463 33.2395 22.5463 32.7176 23.0504L17.5082 38.2598L2.29876 23.0504C1.77288 22.5246 0.920288 22.5246 0.394405 23.0504C-0.131397 23.5763 -0.131397 24.4288 0.394405 24.9547L16.556 41.1163C17.082 41.6421 17.9345 41.6421 18.4604 41.1163Z" fill="#D0382F"/>
+  </g>
+  <g opacity="0.2" clip-path="url(#clip2_86_2898)">
+    <path d="M18.4604 26.533L34.622 10.3713C35.1387 9.8363 35.1238 8.98372 34.5888 8.46699C34.0669 7.96288 33.2395 7.96288 32.7176 8.46699L17.5082 23.6764L2.29876 8.46698C1.77288 7.94118 0.920288 7.94118 0.394405 8.46698C-0.131397 8.99295 -0.131397 9.84546 0.394405 10.3713L16.556 26.533C17.082 27.0588 17.9345 27.0588 18.4604 26.533Z" fill="#D0382F"/>
+  </g>
+
+  <defs>
+    <clipPath id="clip0_86_2898">
+      <rect width="35" height="35" fill="white" transform="translate(35 27.7084) rotate(90)"/>
+    </clipPath>
+    <clipPath id="clip1_86_2898">
+      <rect width="35" height="35" fill="white" transform="translate(35 14.5834) rotate(90)"/>
+    </clipPath>
+    <clipPath id="clip2_86_2898">
+      <rect width="35" height="35" fill="white" transform="translate(35) rotate(90)"/>
+    </clipPath>
+  </defs>
+
+  <style>
+
+     g:nth-of-type(1){
+      animation: 1.3s ease-out .9s infinite blink;
+    }
+    g:nth-of-type(2){
+      animation: 1.3s ease-out .6s infinite blink;
+    }
+    g:nth-of-type(3){
+      animation: 1.3s ease-out .3s infinite blink;
+    }
+  
+    @keyframes blink {
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    
+      100% {
+        transform: translateY(10px);
+        opacity: 0;
+      }
+    }
+
+
+  </style>
+</svg>

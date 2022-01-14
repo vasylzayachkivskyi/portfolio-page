@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Ok</title>
+  <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+  <link rel="stylesheet" href="css/lib/aos.css">
+  <link rel="stylesheet" href="css/lib/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="pagewrapper">
+    <header class="header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-3 col-5">
+            <div class="header__logo">
+              <a href="index.html">
+                first<span>ok</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-9 col-7 d-flex justify-content-end align-items-center">
+            <ul class="header__menu">
+              <li>
+                <a href="#about">Про Нас</a>
+              </li>
+              <li>
+                <a href="#info">Інформація</a>
+              </li>
+              <li>
+                <a href="#project">Наші Проекти</a>
+              </li>
+            </ul>
+
+            <div class="header__btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Зв'яжіться з нами!
+            </div>
+
+            <!-- <div class="header__lang">
+              <div class="header__lang-item">
+                <a href="#">
+                  <img src="img/lang_ua.png" alt="Ukrainian">
+                  <span>UA</span>
+                </a>
+              </div>
+              <div class="header__lang-dropdown">
+                <div class="header__lang-item">
+                  <a href="#">
+                    <img src="img/lang_ua.png" alt="Ukrainian">
+                    <span>UA</span>
+                  </a>
+                </div>
+                <div class="header__lang-item">
+                  <a href="#">
+                    <img src="img/lang_ru.png" alt="Russian">
+                    <span>RU</span>
+                  </a>
+                </div>
+                <div class="header__lang-item">
+                  <a href="#">
+                    <img src="img/lang_en.png" alt="English">
+                    <span>EN</span>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="welcomescreen">
+        <div id="large-header" class="large-header">
+          <canvas id="demo-canvas"></canvas>
+        </div>
+        <div class="container">
+          <div class="welcomescreen__inner">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="welcomescreen__leftbox">
+                  <div class="welcomescreen__title">
+                    <h1>
+                     Ми створимо сайт <span>Вашої мрії!</span>
+                    </h1>
+                  </div>
+                  <div class="welcomescreen__arrow">
+                    <a href="#about">
+                      <img src="img/arrow_down.svg" alt="arrow-down">
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="welcomescreen__img" data-aos="fade-left" data-aos-delay="200">
+          <img src="img/laptop.png" alt="laptop">
+        </div>
+      </section>
+
+      <section class="about sectionwhite">
+        <div class="container">
+          <div class="about__inner" id="about">
+            <div class="about__subtitle section-subtitle" data-aos="fade" data-aos-delay="200">
+              Хто ми?
+            </div>
+            <div class="about__title section-title">
+              <h2>
+                Про нас
+              </h2>
+            </div>
+            <div class="about__content">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="about__content-text">
+                    <p>
+                      Раді вітати Вас на нашому сайті!
+                      Ми працюємо в сфері веб розробки більше 5-ти років. Пишемо акуратний, логічний, продуманий та кроссбраузерний код. Завжди допоможемо вирішити що саме необхідно нашим клієнтам! Гарантуємо Вам швидкість та якість виконання проєкту, адже задоволений клієнт це перше що стоїть у нас на меті! 
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end">
+                  <div class="about__content-img">
+                    <img src="img/about_img1.svg" alt="image">
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+      <section class="info sectionwhite">
+        <div class="container">
+          <div class="info__subtitle section-subtitle" data-aos="fade" data-aos-delay="200">
+            Чим ми займаємось?
+          </div>
+          <div class="info__title section-title">
+            <h2>
+              Інформація
+            </h2>
+          </div>
+          <div class="info__inner">
+            <div class="row">
+              <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="info__item">
+                  <div class="info__item-row">
+                    <img class="info__item-img" src="img/info_item_figma.svg" alt="img">
+                    <div class="info__item-name">
+                      Грамотна робота з макетами
+                    </div>
+                  </div>
+                  <div class="info__item-text">
+                    <p>
+                      Наші верстальники працюють з програмами Figma, Adobe Photoshop та іншими.
+                      Завжди відповідально та впевнено підходять до роботи з макетами. 
+                      Верстка робиться відповідно до методології PixelPerfect, тож ви завжди можете бути впевнені що Ми передамо всю красу макета на Вашому сайті!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="info__item">
+                  <div class="info__item-row">
+                    <img class="info__item-img" src="img/bootstrap.png" alt="img">
+                    <div class="info__item-name">
+                      Робота з бібліотекою Bootstrap
+                    </div>
+                  </div>
+                  <div class="info__item-text">
+                    <p>
+                      Ми також вправні у використанні бібліотеки Bootstrap. Зробимо Ваш шаблон естетичним та красивим відповідно до 12-ти колонкової системи. За допомогою бібліотеки розробимо для Вас динамічні елементи такі як попапи та акордеони.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="info__item">
+                  <div class="info__item-row">
+                    <img class="info__item-img" src="img/js.png" alt="img">
+                    <div class="info__item-name">
+                      Наші вміння в JavaScript
+                    </div>
+                  </div>
+                  <div class="info__item-text">
+                    <p>
+                      За допомогою JavaScript та бібліотек JQuery, Animate та інших наші верстальники зроблять Ваш сайт динамічним та жвавим. Красиві анімації та швидкодія зроблять Ваш сайт дуже зручним та  захопливим! 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="800">
+                <div class="info__item">
+                  <div class="info__item-row">
+                    <img class="info__item-img" src="img/svg.png" alt="img">
+                    <div class="info__item-name">
+                      Красива svg графіка
+                    </div>
+                  </div>
+                  <div class="info__item-text">
+                    <p>
+                      До списку наших скілів також входить анімація svg картинок та різна інша робота з векторною графікою. Тож Ваш сайт ніколи не буде сірим та одноманітним!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="1000">
+                <div class="info__item">
+                  <div class="info__item-row">
+                    <img class="info__item-img" src="img/css.png" alt="img">
+                    <div class="info__item-name">
+                      CSS 3 
+                    </div>
+                  </div>
+                  <div class="info__item-text">
+                    <p>
+                      Ми працюємо з каскадними стилями CSS 3 та різнимим препроцесорами типу SASS і SCSS, для зручності написання красивого і компактного коду!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="1200">
+                <div class="info__item">
+                  <div class="info__item-row">
+                    <img class="info__item-img" src="img/html.png" alt="img">
+                    <div class="info__item-name">
+                      HTML5
+                    </div>
+                  </div>
+                  <div class="info__item-text">
+                    <p>
+                      Мова тегів це база для Вашого сайту, тож ми грамотно та компактно працюємо з HTML тегами.
+                      Використовуємо методологію BEM, оскільки вона дуже зручна для кращої орієнтації в коді, щоб без проблем редагувати верстку при необхідності.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+      <section class="projects sectionwhite">
+        <div class="container">
+          <div class="projects__subtitle section-subtitle" data-aos="fade" data-aos-delay="200">
+            Що ми вміємо?
+          </div>
+          <div class="projects__title section-title">
+            <h2>
+              Наші проєкти
+            </h2>
+          </div>
+        </div>
+        <div class="projects__inner">
+
+          <div class="slider__arrow-prev">
+            <img src="img/arrow_slider.svg" alt="img">
+          </div>
+          <div class="slider__arrow-next">
+            <img src="img/arrow_slider.svg" alt="img">
+          </div>
+
+          <div class="projects__slider">
+
+            <div class="projects__slide">
+              <a href="project/icare/index.html">
+                <img src="img/projects/icare.jpg" alt="ICare">
+              </a>
+            </div>
+
+            <div class="projects__slide">
+              <a href="project/swiftcore/index.html">
+                <img src="img/projects/swiftcore.jpg" alt="SwiftCore">
+              </a>
+            </div>
+
+            <div class="projects__slide">
+              <a href="project/desertpixel/index.html">
+                <img src="img/projects/desertpixel.jpg" alt="desertpixel">
+              </a>
+            </div>
+
+            <div class="projects__slide">
+              <a href="project/golden_star/index.html">
+                <img src="img/projects/golden_star.jpg" alt="golden star">
+              </a>
+            </div>
+
+            <div class="projects__slide">
+              <a href="project/infracon/index.html">
+                <img src="img/projects/infracon.jpg" alt="infracon">
+              </a>
+            </div>
+
+            <div class="projects__slide">
+              <a href="project/sslsertificate/index.html">
+                <img src="img/projects/sslsertificate.jpg" alt="sslsertificate">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>  
+
+    </main>
+
+    <footer class="footer sectionwhite">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-5 col-lg-4 col-sm-6">
+            <a href="index.html" class="footer__logo">
+              First<span>ok</span>
+            </a>
+            <div class="footer__social">
+              <a href="https://www.instagram.com/first_ok_web/">
+                <span class="icon-instagram"></span>
+              </a>
+              <a href="https://t.me/Vasyl_Z">
+                <span class="icon-telegram"></span>
+              </a>
+
+              <a href="tel:380969324082">
+                <span class="icon-phone"></span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-3 col-sm-6 d-flex justify-content-lg-start justify-content-sm-end">
+            <ul class="footer__menu">
+              <li>
+                <a href="#about">About Us</a>
+              </li>
+              <li>
+                <a href="#info">Information</a>
+              </li>
+              <li>
+                <a href="#project">Our project</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xl-4 col-lg-5 d-flex  flex-column">
+            <a class="footer__btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Зв'язок
+            </a>
+            <div class="footer__copy">
+              Copyright 2021 ©FirstOk  All rights reserved.
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </footer> 
+
+  </div>
+
+  <div class="top__btn">
+    <img src="img/top_btn.svg" alt="up">
+  </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+  
+          <div class="modal-body">
+            <div class="modal__title">
+              Бажаєте замовити сайт?
+            </div>
+            <div class="modal__text">
+              Напишіть або подзвоніть нам!
+            </div>
+            <div class="modal__social">
+              <a href="https://www.instagram.com/first_ok_web/">
+                <span class="icon-instagram"></span>
+              </a>
+              <a href="https://t.me/Vasyl_Z">
+                <span class="icon-telegram"></span>
+              </a>
+
+              <a href="tel:380969324082">
+                <span class="icon-phone"></span>
+              </a>
+            </div>
+            <button type="button" class="btn__close" data-bs-dismiss="modal">На головну</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+  <script src="js/lib/aos.js"></script>
+  <script src="js/lib/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js"></script>
+  <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js"></script>
+  <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js"></script>
+  <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js"></script>
+
+
+</body>
+
+</html>
